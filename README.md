@@ -24,7 +24,7 @@ Henrique Maciel:Fotos e código
 
 ### Alteraçôes Feitas (programação):
 Adicionamos um botão novo no arduino para desligar o led, colocamos tambem o código para o botão 2 que foi adicionado, mudamos o erro do led azul, mudamos a temperatura de 30 para 15, e um código novo com as portas certas, o nome do grupo foi colocado e faremos o led verde.
-### Dificuldades e comentários sobre o processo (programação):
+### Dificuldades e comentários sobre o processo (programação): os problemas principais foram relembrar de como mexer na programação e também arrumar a estética do arduino no tinkercard,é válido se lembrar que nós perdemos no meio do caminho no meio de tantos números.
 
 
 
