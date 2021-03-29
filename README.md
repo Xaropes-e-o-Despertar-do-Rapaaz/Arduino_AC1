@@ -1,36 +1,34 @@
 # Arduino_AC1
-## Nossa primeira AC, observe bem o código, procure pelos erros.
 
-Use o FORK para adicionar esse projeto a sua organização antes de começar.
+### Qual nosso objetivo:
 
-![](https://img.shields.io/github/forks/Leoruiz197/Arduino_AC1)
-![](https://img.shields.io/github/stars/Leoruiz197/Arduino_AC1)
+Fomos contratados por uma fábrica farmacêutica que é responsável por produzir doses de vacina, para que a automação do chão dela. Para isso usaremos sensores de temperatura e luminosidade, um circuito com leds que servirão como "informativos" sobre a temperatura e luminosidade por exemplo, então dividimos nosso grupo para a parte administrativa e de programação. Precisarão ser feitos alguns ajustes na programação e no circuito, e também será feito o registro do progresso do trabalho, além de alguns comentários sobre e etc
 
-![](https://github.com/Leoruiz197/Arduino_AC1/blob/main/AC1.png)
+### Alteraçôes necessárias:
 
-## **O PROBLEMA:** 
+Será adicionado no circuito um botão (o que inclui fios, resistor e etc), varias alteraçôes na programação, e é claro o registro do processo e do grupo.
 
-Seu grupo foi contratado para realizar a automação do chão de fábrica de uma farmacêutica responsável por produzir doses de vacina, a automação levará em conta alguns sensores e avisos luminosos para os funcionários responsáveis pela produção.
+### Integrantes do grupo e tarefas:
 
-Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar cada ponto necessário para completar o desafio.
+Gabriela Ramalho:Circuito
 
-### Funcionalidades esperadas:
+Gustavo Tomé:Circiuto
 
-- Um botão para ligar e outro para desligar a produção indicados pelo led vermelho.
-- Leitura do sensor de temperatura e teste, ao atingir **15℃** o led azul deve acender, deve ser informado via serial e somente apagar o led quando a temperatura for mais baixa que isso.
-- Leitura do sensor de luminosidade e teste, ao indicar um valor acima de **5** a luminosidade do ambiente esta muito alta, deve ser informado via serial e o led verde deve permanecer aceso até a luminosidade diminuir.
+Henrique fucks: Registro
 
-### Composição da nota do grupo
-- Ajuste dos erros no código principal.
-- Documentação do projeto do github no README.md abordando todos os pontos necessários.
-- No README.md adicionando nome do grupo fotos e short bio de cada integrante.
-- Todos os pontos do código devem estar comentados corretamente informando o que se passa ali.
-- Usar do Serial o max possível, sempre informando os estados da produção e demais itens.
-- Implementação das funcionalidades faltantes.
+Maria Eduarda Stocco:Registro
 
-### Desconto de nota individual
+Ricardo Gavioli:Registro
 
-**Caso um dos integrantes venha a ter um desempenho inconsistente na colaboração com o projeto em comparação com os demais da equipe o mesmo pode ter sua nota parcial ou total descontada.**
+Henrique Maciel:
+
+### Alteraçôes Feitas (programação):
+
+
+
+### Dificuldades e comentários sobre o processo (programação):
+
+
 
 #### LINKS UTEIS:
 
