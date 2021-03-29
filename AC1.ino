@@ -33,7 +33,7 @@ void loop()
   	lastDebounceTime1 = millis();
   }
   
-  if(getTemperatura() > 30){
+  if(getTemperatura() > 15){
     ledAzul(true);
   }else{
   	ledAzul(falso); 
