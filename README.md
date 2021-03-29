@@ -10,9 +10,9 @@ Será adicionado no circuito um botão (o que inclui fios, resistor e etc), vari
 
 ### Integrantes do grupo e tarefas:
 
-Gabriela Ramalho:Circuito
+Gabriela Ramalho:Circuito e código
 
-Gustavo Tomé:Circiuto
+Gustavo Tomé:Circuito e código
 
 Henrique fucks: Registro
 
