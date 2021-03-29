@@ -6,7 +6,6 @@ const int azul = 7
 bool estadoLedVermelho = false;
 
 const int botao1 = 2;
-const int botao2 = 3;
 unsigned long lastDebounceTime1 = 0;
 const int botaoDelay = 100;
 
@@ -21,22 +20,17 @@ void setup()
   
   Serial.begin(9600);
 	
-  Serial.println("AC1 - Meu Primeiro Projeto 2021");
+  Serial.println("AC1 - projeto fabrica farmaceutica");
   Serial.println("                           V1.0");
-  Serial.println("Grupo: NOME AQUI               ");
+  Serial.println("Grupo: xaropinho e o despertar do raizz             ");
 }
 
 void loop()
 {
   if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao1)){
-  Serial.println("botao 1 apertado");
-  ledVermelho();
-  lastDebounceTime1 = millis();
-	  
- if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao1)){
- Serial.println("botao 2 apertado");
- ledVermelho();
- lastDebounceTime1 = millis();  
+  	Serial.println("botao 1 apertado");
+    ledVermelho();
+  	lastDebounceTime1 = millis();
   }
   
   if(getTemperatura() > 15){
