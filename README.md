@@ -23,9 +23,7 @@ Ricardo Gavioli:Registro
 Henrique Maciel:Fotos e código
 
 ### Alteraçôes Feitas (programação):
-
-
-
+Adicionamos um botão novo no arduino para desligar o led, colocamos tambem o código para o botão 2 que foi adicionado, mudamos o erro do led azul, mudamos a temperatura de 30 para 15, e um código novo com as portas certas, o nome do grupo foi colocado e faremos o led verde.
 ### Dificuldades e comentários sobre o processo (programação):
 
 
