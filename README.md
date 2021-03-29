@@ -20,7 +20,7 @@ Maria Eduarda Stocco:Registro
 
 Ricardo Gavioli:Registro
 
-Henrique Maciel:
+Henrique Maciel:Fotos e código
 
 ### Alteraçôes Feitas (programação):
 
