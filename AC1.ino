@@ -4,12 +4,7 @@ const int verde = 6;
 const int azul = 7;
 
 bool estadoLedVermelho = false;
-void ledVerde(bool estado){
-  digitalWrite(verde,estado);
-}
- 
-void ledAzul(bool estado){
-  digitalWrite(azul,estado);
+
 const int botao1 = 2;
 const int botao2 = 3;
 unsigned long lastDebounceTime1 = 0;
@@ -67,7 +62,13 @@ int getTemperatura(){
 	temperaturaC = map(((analogRead(A0) - 20) * 3.04), 0, 1023, -40, 125);
   	return temperaturaC;
 } 
-
+void ledVerde(bool estado){
+  digitalWrite(verde,estado);
+}
+ 
+void ledAzul(bool estado){
+  digitalWrite(azul,estado);
+}	
 int getLuminosidade(){
   	int luminosidade;
 	luminosidade = map(analogRead(A1), 6, 619, -3, 10);
