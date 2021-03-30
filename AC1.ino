@@ -44,7 +44,11 @@ void loop()
   }else{
   ledAzul(false); 
   }
-  	
+  if (getLuminosidade() > 5){
+    ledVerde(true);
+  }else{
+    ledVerde(false);
+  }	
   delay(10);
 }
 
