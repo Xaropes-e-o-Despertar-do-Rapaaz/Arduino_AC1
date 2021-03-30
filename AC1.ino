@@ -48,15 +48,9 @@ void loop()
   delay(10);
 }
 
-void ledVermelho(){
-  estadoLedVermelho = !estadoLedVermelho;
-  digitalWrite(vermelho,estadoLedVermelho);
-}
-void ledVerde(){
- //precisa fazer  
-}
-void ledAzul(bool estado){
-	digitalWrite(azul,estado);
+void ledVermelho(bool estado){
+  digitalWrite(vermelho,estado);
+
 }
 
 int getTemperatura(){
