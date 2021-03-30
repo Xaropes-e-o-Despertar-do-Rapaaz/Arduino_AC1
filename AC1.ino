@@ -51,10 +51,15 @@ void loop()
   }	
   delay(10);
 }
-
 void ledVermelho(bool estado){
   digitalWrite(vermelho,estado);
-
+}
+void ledVerde(bool estado){
+  digitalWrite(verde,estado);
+}
+ 
+void ledAzul(bool estado){
+  digitalWrite(azul,estado);
 }
 
 int getTemperatura(){
@@ -62,15 +67,8 @@ int getTemperatura(){
 	temperaturaC = map(((analogRead(A0) - 20) * 3.04), 0, 1023, -40, 125);
   	return temperaturaC;
 } 
-void ledVerde(bool estado){
-  digitalWrite(verde,estado);
-}
- 
-void ledAzul(bool estado){
-  digitalWrite(azul,estado);
-}	
+
 int getLuminosidade(){
   	int luminosidade;
 	luminosidade = map(analogRead(A1), 6, 619, -3, 10);
   	return luminosidade;
-}
