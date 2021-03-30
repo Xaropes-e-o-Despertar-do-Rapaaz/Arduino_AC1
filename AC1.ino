@@ -4,7 +4,12 @@ const int verde = 6;
 const int azul = 7;
 
 bool estadoLedVermelho = false;
-
+void ledVerde(bool estado){
+  digitalWrite(verde,estado);
+}
+ 
+void ledAzul(bool estado){
+  digitalWrite(azul,estado);
 const int botao1 = 2;
 const int botao2 = 3;
 unsigned long lastDebounceTime1 = 0;
